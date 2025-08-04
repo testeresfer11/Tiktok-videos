@@ -15,32 +15,20 @@ const links = [
   {
     id: 1,
     title: 'Google',
-    url: 'https://www.google.com',
+    url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     description: 'Search engine'
   },
   {
     id: 2,
     title: 'GitHub',
-    url: 'https://github.com',
+    url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     description: 'Code hosting platform'
   },
   {
     id: 3,
     title: 'Stack Overflow',
-    url: 'https://stackoverflow.com',
+    url: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
     description: 'Developer community'
-  },
-  {
-    id: 4,
-    title: 'MDN Web Docs',
-    url: 'https://developer.mozilla.org',
-    description: 'Web development documentation'
-  },
-  {
-    id: 5,
-    title: 'Node.js',
-    url: 'https://nodejs.org',
-    description: 'JavaScript runtime'
   }
 ];
 
