@@ -1,7 +1,7 @@
 {
-  "name": "links-api",
+  "name": "pexels-video-api",
   "version": "1.0.0",
-  "description": "A Node.js Express.js API with CORS enabled that returns an array of links",
+  "description": "A Node.js Express.js API for Pexels video search and analytics",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -13,13 +13,18 @@
     "express",
     "api",
     "cors",
-    "links"
+    "pexels",
+    "videos",
+    "stock-videos",
+    "analytics"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
