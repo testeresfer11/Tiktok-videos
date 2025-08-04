@@ -23,7 +23,9 @@ class PexelsService {
         params: {
           query: query,
           per_page: perPage,
-          page: page
+          page: page,
+          orientation : "portrait",
+          size: "small"
         }
       });
 

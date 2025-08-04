@@ -7,7 +7,7 @@ router.get('/search', async (req, res) => {
   try {
     const {per_page, page } = req.query;
     
-    const query = "reel";
+    const query = "Single Continuous Shot";
     
     const perPage = per_page ? parseInt(per_page) : 15;
     const pageNum = page ? parseInt(page) : 1;
