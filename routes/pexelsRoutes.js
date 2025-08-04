@@ -5,14 +5,9 @@ const pexelsService = require('../services/pexelsService');
 // Search videos by query
 router.get('/search', async (req, res) => {
   try {
-    const { query, per_page, page } = req.query;
+    const {per_page, page } = req.query;
     
-    if (!query) {
-      return res.status(400).json({
-        success: false,
-        message: 'Query parameter is required'
-      });
-    }
+    const query = "reel";
     
     const perPage = per_page ? parseInt(per_page) : 15;
     const pageNum = page ? parseInt(page) : 1;
